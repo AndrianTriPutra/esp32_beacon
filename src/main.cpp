@@ -1,8 +1,3 @@
-//mosquitto_sub -h broker.emqx.io -p 1883 -t smarthome/beacon/# -v
-//mosquitto_pub -h broker.emqx.io -p 1883 -t smarthome/beacon/483923A4AE30/setting -m 'reboot'
-//mosquitto_pub -h broker.emqx.io -p 1883 -t smarthome/beacon/483923A4AE30/setting -m '[interval|4]'
-//mosquitto_pub -h broker.emqx.io -p 1883 -t smarthome/beacon/483923A4AE30/setting -m 'status'
-
 #include <Arduino.h>
 #include <Int64String.h>
 #include <WiFi.h>
