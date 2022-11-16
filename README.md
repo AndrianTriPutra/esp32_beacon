@@ -10,4 +10,4 @@ getting started esp32 for beacon
 - plugin: platform.io
 
 ## instruction
--
+- https://andriantriputra.medium.com/micro-controller-esp32-beacon-ac60239c7659
