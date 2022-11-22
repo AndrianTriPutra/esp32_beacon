@@ -357,7 +357,8 @@ class MyAdvertisedDeviceCallbacks : public BLEAdvertisedDeviceCallbacks{
           }
         }else if (strManufacturerData.length() ==13 ) {//jinou
           if (advertisedDevice.haveName()){
-            String serial_number = advertisedDevice.getAddress().toString().c_str();    
+            String serial_number = advertisedDevice.getAddress().toString().c_str();   
+            serial_number.replace(":","");
             String tanda="";
             if (cManufacturerData[0]!=0){
               tanda="-";
